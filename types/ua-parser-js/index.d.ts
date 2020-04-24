@@ -185,7 +185,7 @@ declare module "ua-parser-js" {
         /**
          *  Set & parse UA string
          */
-        setUA(uastring: string): UAParser;
+        setUA(uastring?: string): UAParser;
 
         /**
          *  Returns parse result
